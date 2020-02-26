@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+#nav{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Raleway', ;
+    color: rgb(221, 237, 252);
+    /* padding-top: 3%; */
+    padding-bottom: 1%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly
+}
+#welcome{
+    font-size: 50px;
+    font-family: 'Raleway', ;
+    color: rgb(42, 56, 70); 
+    display: flex;
+    justify-content: center;
+}
+
+#form{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    padding-top: 1%;
+    font-family: 'Raleway', ;
+    color: rgb(221, 237, 252);
+    text-align: center;
+    font-size: 30px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column; 
+    width: 20vw;
+   
+}
+
+#submit{
+    display: flex;
+    margin-top: 2%;
+    width: 10vw;
+    align-self: center;
+    justify-content: center;
+    background-color: rgb(133, 131, 131);
+    border-radius: 3%;
+    border: solid rgb(133, 131, 131);
+}
+
+body{
+    background-image: url('1.jpg');
+    background-size: cover
+}
+
+#signup{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Raleway', ;
+    color: rgb(221, 237, 252);
+}
+
+#container{
+   width:  100%;
+   display:  flex;
+   justify-content: center;
+    /* width: 50vw; */
+}
+
+.all {
+    border: 2px solid rgba(17, 55, 70, 0.541);
+    width: 30%;
+    border-radius: 5%;
+    padding-bottom: 3%;
+    background-color: rgba(17, 55, 70, 0.336);
+}
+
+#fool{
+    width: 30vw;
+    /* display: flex; */
+    justify-content: center;
+    border-radius: 5%;
+}
+
+#profilePic{
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5%;
+}
+
+#username{
+    text-align: center;
+    /* font-size: 30px; */
+    font-family: 'Raleway', ;
+    color: rgb(221, 237, 252);
+}
+
+a{
+    color: rgb(221, 237, 252);
+}
+
+#youFool{
+    font-family: 'Raleway', ;
+    color: rgb(14, 18, 22);
+    text-align: center;
+}
+
+#err{
+    font-family: 'Raleway', ;
+    color: rgb(255, 0, 0);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
